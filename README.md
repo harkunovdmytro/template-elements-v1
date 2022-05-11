@@ -1,3 +1,9 @@
+# template-elements-v1 by Harkunov Dmytro
+
+Here i'm creating some template elements for my future websites.
+Please, enjoy it 😊
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

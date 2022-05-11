@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+.template-one-container {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    .template-one {
+        box-shadow: 0px 40px 50px 0px rgb(0 0 0 / 10%);
+        margin: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        .img-container {
+            width: 47%;
+            .img-bg {
+                height: 100%;
+                text-align: center;
+                position: relative;
+                img {
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    left: 50%;
+                    top: 50%;
+                    // max-width: 90%;
+                    max-height: 110%;
+                    // height: 1129px;
+                    // width: 800px;
+                    object-fit: contain;
+                }
+            }
+        }
+        .text-container {
+            width: 47%;
+            padding: 40px;
+            .header {
+                font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
+                font-weight: 700;
+                font-size: 28px;
+                color: #2b2b2b !important;
+                line-height: 1.5em;
+                position: relative;
+                display: inline-block;
+                &::after {
+                    content: "";
+                    width: 100%;
+                    height: 1px;
+                    border-top: 1px solid rgba(0, 0, 0, 0.1);
+                    position: absolute;
+                    left: 0;
+                    bottom: -40px;
+                    // z-index: 10;
+                    border-top-color: #f7d584;
+                    border-top-width: 3px;
+                }
+            }
+            .text {
+                font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+                margin-top: 80px;
+                margin-bottom: 30px !important;
+                line-height: 1.9em;
+                font-size: 16px;
+                color: rgba(0, 0, 0, 0.4) !important;
+            }
+        }
+    }
+}
+
+.img-bg {
+    &.red {
+        background-image: linear-gradient(35deg, #ff6a88 0%, #ff99ac 100%) !important;
+    }
+    &.purple {
+        background-image: linear-gradient(34deg, #ff5acd 0%, #fbda61 100%) !important;
+    }
+    &.pink {
+        background-image: linear-gradient(35deg, #faaca8 0%, #ddd6f3 100%) !important;
+    }
+}
+
+@media (max-width: 959px) {
+    .template-one {
+        margin: 50px !important;
+        flex-flow: column !important;
+        .text-container {
+            width: 100% !important;
+        }
+        .img-container {
+            width: 100% !important;
+            height: auto;
+            .img-bg {
+                height: auto;
+                overflow: visible;
+                img {
+                    width: 90% !important;
+                    height: 110% !important;
+                    position: static !important;
+                    transform: scale(1.05) translate(0, 0) !important;
+                }
+            }
+        }
+    }
+}

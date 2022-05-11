@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&display=swap");
+$primary-text: #20292f;
+$primary: pink;
+.navbar-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    box-shadow: 0 0 30px rgba(7, 51, 84, 0.17);
+    font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+    height: 80px;
+    background-color: white;
+    opacity: 1;
+    a {
+        text-decoration: none;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        height: 80px;
+    }
+    .logo-link {
+        line-height: 1.5em;
+        font-size: 1.5em;
+        color: $primary-text;
+    }
+    .mobile-menu-btn {
+        background-color: inherit;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        * {
+            transition: 0.2s;
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .menu-list {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        .menu-item {
+            line-height: 1em;
+            height: 100%;
+            margin-left: 15px;
+            .menu-link {
+                height: 100%;
+                color: $primary-text;
+                position: relative;
+                overflow: hidden !important;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    width: 100%;
+                    height: 3px;
+                    border-radius: 20px;
+                    background-color: $primary;
+                    transition: all 0.3s;
+                    opacity: 0;
+                }
+                &:hover {
+                    &::before {
+                        position: absolute;
+                        bottom: 0;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .menu-list {
+        position: fixed;
+        flex-flow: column;
+        justify-items: flex-start;
+        justify-content: flex-start;
+        align-items: center;
+        top: 80px;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        // height: calc(100vh - 80px);
+        font-size: 30px;
+        transition: 0.3s;
+        .menu-item {
+            margin: 20px;
+            max-width: 80%;
+        }
+        &.active {
+            top: 100%;
+        }
+    }
+}

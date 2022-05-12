@@ -1,0 +1,41 @@
+.template-two-container {
+    width: 80%;
+    max-width: 1080px;
+    font-family: "Karla", Helvetica, Arial, Lucida, sans-serif;
+    // background-image: linear-gradient(180deg, rgba(18, 18, 18, 0.6) 0%, rgba(18, 18, 18, 0.9) 100%), url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/05/architect-firm-01.jpg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 50px;
+    margin: 75px auto;
+    aspect-ratio: 2/1;
+    .template-two {
+        display: flex;
+        flex-flow: column;
+        justify-items: center;
+        align-items: flex-start;
+        .category {
+            color: #c2ab92 !important;
+            line-height: 1.8em;
+            font-family: "Karla", Helvetica, Arial, Lucida, sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            line-height: 1.8em;
+        }
+        .header {
+            font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+            font-size: 40px;
+            line-height: 1.4em;
+            color: #fff !important;
+        }
+        .client {
+            line-height: 1.8em;
+            font-family: "Karla", Helvetica, Arial, Lucida, sans-serif;
+            font-size: 18px;
+            line-height: 1.8em;
+            margin-bottom: 16% !important;
+            color: rgba(255, 255, 255, 0.7) !important;
+        }
+    }
+}

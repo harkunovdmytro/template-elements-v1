@@ -44,3 +44,23 @@ export const ShowPageOneData = [{
         btnText: ''
     }
 }, ]
+
+export const ShowPageTwoData = [{
+    category: 'EXTERIOR ARCHITECTURE',
+    header: 'Monarh Hall',
+    client: 'AR Bros',
+    imgLink: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/05/architect-firm-01.jpg',
+    projectLink: '#'
+}, {
+    category: 'COMMERCIAL',
+    header: 'Divi HQ Office Building',
+    client: 'Divi Inc.',
+    imgLink: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/05/architect-firm-10.jpg',
+    projectLink: '#'
+}, {
+    category: 'RESIDENTIAL',
+    header: 'Extra Appartment Complex',
+    client: 'Extra',
+    imgLink: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/04/architect-firm-05.jpg',
+    projectLink: '#'
+}, ]

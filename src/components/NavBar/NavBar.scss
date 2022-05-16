@@ -78,14 +78,12 @@ $primary: pink;
     .menu-list {
         position: fixed;
         flex-flow: column;
-        justify-items: flex-start;
-        justify-content: flex-start;
         align-items: center;
         top: 80px;
         left: 0;
         background-color: white;
         width: 100%;
-        height: 100%;
+        height: calc(100% - 80px);
         // height: calc(100vh - 80px);
         font-size: 30px;
         transition: 0.3s;

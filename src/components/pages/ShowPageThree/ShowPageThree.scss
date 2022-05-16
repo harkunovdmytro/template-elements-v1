@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Nunito:wght@500;600;700&display=swap");
+.show-page-tree-container {
+    background-color: #f8fbfe !important;
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.7em;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    padding: 20px;
+    .ShowPageThree-flex {
+        display: flex;
+        flex-flow: wrap;
+        align-content: flex-start !important;
+        align-items: flex-start !important;
+    }
+    .pre-card-text {
+        text-align: center;
+        margin: 100px auto 50px;
+        max-width: 700px;
+        h2 {
+            font-family: "Nunito Sans", Helvetica, Arial, Lucida, sans-serif;
+            font-weight: 700;
+            font-size: 35px;
+            color: #535b7c !important;
+            line-height: 1.3em;
+        }
+        p {
+            color: #959baf !important;
+            line-height: 1.8em;
+            font-family: "Nunito Sans", Helvetica, Arial, Lucida, sans-serif;
+            font-size: 100%;
+            line-height: 1.8em;
+        }
+    }
+}

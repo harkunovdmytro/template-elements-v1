@@ -64,3 +64,95 @@ export const ShowPageTwoData = [{
     imgLink: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/04/architect-firm-05.jpg',
     projectLink: '#'
 }, ]
+
+export const ShowPageThreeData = [{
+        imgLink: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/01/product-illustration-2.png',
+        header: 'Design & Content',
+        text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.',
+        list: [{
+            itemHeader: 'User Interface Designer',
+            itemDescription: ["Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.", "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo."],
+            itemLink: '#',
+            itemLinkText: 'Full Job Description'
+        }, {
+            itemHeader: 'Content Writer',
+            itemDescription: ["Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.", "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo."],
+            itemLink: '#',
+            itemLinkText: 'Full Job Description'
+        }, {
+            itemHeader: 'Content Strategist',
+            itemDescription: ["Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.", "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo."],
+            itemLink: '#',
+            itemLinkText: 'Full Job Description'
+        }, ]
+    },
+    {
+        imgLink: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/01/product-illustration-1.png',
+        header: 'Product Development',
+        text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.',
+        list: [{
+            itemHeader: 'Prototyper',
+            itemDescription: ["Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.", "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo."],
+            itemLink: '#',
+            itemLinkText: 'Full Job Description'
+        }, {
+            itemHeader: 'Front-End Developer',
+            itemDescription: ["Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.", "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo."],
+            itemLink: '#',
+            itemLinkText: 'Full Job Description'
+        }, {
+            itemHeader: 'Back-End Developer',
+            itemDescription: ["Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.", "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo."],
+            itemLink: '#',
+            itemLinkText: 'Full Job Description'
+        }, {
+            itemHeader: 'Product Marketer',
+            itemDescription: ["Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.", "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo."],
+            itemLink: '#',
+            itemLinkText: 'Full Job Description'
+        }, ]
+    },
+    {
+        imgLink: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/01/product-illustration-3.png',
+        header: 'Design & Content',
+        text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.',
+        list: [{
+            itemHeader: 'Human Resources',
+            itemDescription: ["Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.", "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo."],
+            itemLink: '#',
+            itemLinkText: 'Full Job Description'
+        }, {
+            itemHeader: 'Community Manager',
+            itemDescription: ["Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.", "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo."],
+            itemLink: '#',
+            itemLinkText: 'Full Job Description'
+        }, ]
+    },
+
+]
+
+export const ShowPageFourData = [{
+    header: 'Peter & Melkhova’s Home',
+    text: "Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est.Mauris accumsan eros eget libero.",
+    imgLink: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/01/image-7.jpg',
+    btnLink: '#',
+    isImgLeft: true,
+}, {
+    header: 'Fay Office Interior',
+    text: "Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est.Mauris accumsan eros eget libero.",
+    imgLink: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/01/image-5.jpg',
+    btnLink: '#',
+    isImgLeft: false,
+}, {
+    header: "Reading Room Concepts for Nathan Moe's Home Interior",
+    text: "Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est.Mauris accumsan eros eget libero.",
+    imgLink: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/02/image-6.jpg',
+    btnLink: '#',
+    isImgLeft: true,
+}, {
+    header: "Nathan Moe's Home Interior",
+    text: "Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est.Mauris accumsan eros eget libero.",
+    imgLink: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2018/02/image-9.jpg',
+    btnLink: '#',
+    isImgLeft: false,
+}, ]

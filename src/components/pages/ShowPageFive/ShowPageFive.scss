@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Questrial&display=swap");
+$primary: #333;
+.show-page-five-container {
+    font-family: "Cormorant Garamond", serif;
+    font-family: "Questrial", sans-serif;
+    .show-page-five {
+        min-height: calc(100vh - 100px);
+        display: flex;
+        .five-text {
+            margin-right: 50px;
+            width: 50%;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            padding: 40px;
+            position: relative;
+            .five-logo {
+                position: absolute;
+                color: white;
+                background-color: $primary;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                align-items: center;
+                height: 100px;
+                top: 0;
+                width: 70px;
+                text-decoration: none;
+            }
+            .five-menu-container {
+                .five-menu {
+                    display: flex;
+                    justify-content: flex-end;
+                    list-style: none;
+                    li {
+                        margin-left: 30px;
+                        a {
+                            text-transform: uppercase;
+                            color: $primary;
+                            text-decoration: none;
+                            position: relative;
+                            font-weight: 400;
+                            &::before {
+                                content: " ";
+                                position: absolute;
+                                bottom: 0;
+                                width: 100%;
+                                height: 2px;
+                                border-radius: 20px;
+                                opacity: 0;
+                                background-color: $primary;
+                                transition: 0.7s ease;
+                            }
+                            &:hover {
+                                &::before {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .five-description {
+                .header {
+                    font-size: 58px;
+                    font-weight: 100;
+                    margin-bottom: 20px;
+                }
+                .text {
+                    color: $primary;
+                    font-size: 15px;
+                    margin-bottom: 60px;
+                    max-width: 80%;
+                }
+                .btn-group {
+                    display: flex;
+                }
+            }
+            .five-statistics {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-right: 40px;
+                .stats-num {
+                    position: relative;
+                    left: -3px;
+                    font-size: 40px;
+                    font-weight: 900;
+                }
+                .stats-desc {
+                    font-size: 14px;
+                }
+                .stats-line {
+                    height: calc(100% - 10px);
+                    background-color: #bbb;
+                    width: 1px;
+                }
+            }
+        }
+        .five-slider-container {
+            width: 50%;
+            position: relative;
+            display: flex;
+            .five-slider-wrapper {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                .five-slider-wrapper-wrapper {
+                    margin: auto;
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                    position: relative;
+                    overflow: hidden;
+                    .slide {
+                        left: 0;
+                        position: absolute;
+                        height: 100% !important;
+                        width: 100%;
+                        background-color: $primary;
+                        transition: 0.7s linear !important;
+                        opacity: 1;
+                        &.prev {
+                            left: -150%;
+                            opacity: 0;
+                        }
+                        &.next {
+                            left: 150%;
+                            opacity: 0;
+                        }
+                    }
+                }
+            }
+            .slider-controls {
+                position: absolute;
+                bottom: 0;
+                transform: translateX(-50%);
+                .slider-btn {
+                    width: 70px;
+                    height: 70px;
+                    background-color: white;
+                    color: $primary;
+                    outline: none;
+                    border: 1px solid white;
+                    &:hover {
+                        border-color: $primary;
+                    }
+                }
+            }
+            .slider-nums {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                background-color: $primary;
+                width: 80px;
+                height: 50px;
+                .slider-nums-wrapper {
+                    overflow: hidden;
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    &::after {
+                        content: "";
+                        width: 50px;
+                        height: 2px;
+                        border-radius: 20px;
+                        transform: translate(-50%, -50%) rotate(-45deg);
+                        background-color: #fff;
+                        bottom: 18px;
+                        right: -22px;
+                        position: absolute;
+                    }
+                    .current-slide-num {
+                        color: #fff;
+                        position: absolute;
+                        font-size: 35px;
+                        top: 0;
+                        left: 5px;
+                        transition: all 0.7s ease !important;
+                        opacity: 1;
+                        &.prev {
+                            opacity: 0;
+                            top: +100%;
+                        }
+                        &.next {
+                            top: -100%;
+                            opacity: 0;
+                        }
+                    }
+                    .slides-quantity {
+                        color: #bbb;
+                        position: absolute;
+                        font-size: 22px;
+                        bottom: 0;
+                        right: 0;
+                    }
+                }
+            }
+            .slider-desc {
+                position: absolute;
+                bottom: 40%;
+                right: 0;
+                background-color: $primary;
+                color: white;
+                min-width: 120px;
+                height: 60px;
+                text-align: right;
+                padding: 10px;
+                .slider-desc-wrapper {
+                    overflow: hidden !important;
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    .name-wrapper {
+                        overflow: hidden;
+                        .name {
+                            white-space: nowrap;
+                            position: absolute;
+                            top: 0;
+                            right: 0%;
+                            transition: all 0.7s;
+                            &.prev {
+                                right: +200%;
+                            }
+                            &.next {
+                                right: -200%;
+                            }
+                        }
+                    }
+                    .location-wrapper {
+                        overflow: hidden;
+                        .location {
+                            transition: all 0.7s ease-in;
+                            white-space: nowrap;
+                            position: absolute;
+                            transform: rotateX(0deg);
+                            right: 0;
+                            bottom: 0;
+                            opacity: 1;
+                            &.prev {
+                                transform: rotateX(90deg);
+                                bottom: 10%;
+                                opacity: 0;
+                            }
+                            &.next {
+                                transform: rotateX(-90deg);
+                                bottom: -10%;
+                                opacity: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

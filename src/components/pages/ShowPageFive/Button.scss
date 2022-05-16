@@ -1,0 +1,18 @@
+$primary: #333;
+$secondary: #fff;
+.btn {
+    text-decoration: none;
+    color: $secondary;
+    background-color: $primary;
+    padding: 16px 24px;
+    border: solid $primary;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.btn.dark {
+    color: $primary;
+    background-color: $secondary;
+    border-color: $secondary;
+}

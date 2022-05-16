@@ -156,3 +156,20 @@ export const ShowPageFourData = [{
     btnLink: '#',
     isImgLeft: false,
 }, ]
+
+export const ShowPageFiveData = {
+    header: 'The architecture of tomorrow is being built today',
+    text: 'We design public places than ongage and allow them to discover new things-beneach, above and around item.',
+    statistic: [
+        { num: '120+', desc: 'Buildings' },
+        { num: '100+', desc: 'Professionals' },
+        { num: '15+', desc: 'Years experience' },
+    ],
+    slides: [
+        { id: 0, link: 'slider/1.jpg', name: 'name 1', location: 'location 1' },
+        { id: 1, link: 'slider/2.jpg', name: 'name 2', location: 'location 2' },
+        { id: 2, link: 'slider/3.jpg', name: 'name 3', location: 'location 3' },
+        { id: 3, link: 'slider/4.jpg', name: 'name 4', location: 'location 4' },
+        { id: 4, link: 'slider/5.jpg', name: 'name 5', location: 'location 5' },
+    ]
+}
